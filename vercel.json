@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "client/dist",
+  "functions": { "api/index.js": { "includeFiles": "server/content/**" } },
+  "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }]
+}

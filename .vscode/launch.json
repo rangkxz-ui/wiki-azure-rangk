@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "Servidor Express", "type": "node", "request": "launch",
+      "program": "${workspaceFolder}/server/src/index.js", "envFile": "${workspaceFolder}/.env" }
+  ]
+}
